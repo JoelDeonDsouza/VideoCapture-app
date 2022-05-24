@@ -84,7 +84,7 @@ export default function App() {
             <Text style={styles.textBTN}>Start</Text>
           </Pressable>
         </View>
-
+        <Text style={styles.logo}>Think3DDD</Text>
         <View style={styles.btnStop}>
           <Pressable onPress={() => stopVideo()}>
             <Text style={styles.textBTN}>Stop</Text>
@@ -123,16 +123,16 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   play: {
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
     backgroundColor: "#F9D923",
     borderRadius: 100,
     borderWidth: 2,
     borderColor: "#187498",
   },
   save: {
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
     backgroundColor: "#4D96FF",
     borderRadius: 100,
     borderWidth: 2,
@@ -175,9 +175,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     alignSelf: "center",
+    marginTop: height / 30,
+  },
+  logo: {
+    textAlign: "center",
+    justifyContent: "center",
+    fontSize: 35,
+    fontWeight: "bold",
+    color: "#ff3366",
     marginTop: height / 40,
   },
-
   errorText: {
     justifyContent: "center",
     alignSelf: "center",
