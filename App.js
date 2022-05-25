@@ -64,7 +64,7 @@ export default function App() {
         isLooping
         onPlaybackStatusUpdate={(status) => setStatus(() => status)}
       />
-      <View style={styles.btn}>
+      {/* <View style={styles.btn}>
         <View style={styles.play}>
           <Pressable
           // onPress={() =>
@@ -76,7 +76,7 @@ export default function App() {
             <Text style={styles.textBTN1}>Play</Text>
           </Pressable>
         </View>
-      </View>
+      </View> */}
 
       <View style={styles.btns}>
         <View style={styles.btnRecord}>
@@ -92,13 +92,13 @@ export default function App() {
         </View>
       </View>
 
-      <View style={styles.btn}>
+      {/* <View style={styles.btn}>
         <View style={styles.save}>
           <Pressable>
             <Text style={styles.textBTN1}>Send</Text>
           </Pressable>
         </View>
-      </View>
+      </View> */}
     </View>
   );
 }
@@ -180,9 +180,9 @@ const styles = StyleSheet.create({
   logo: {
     textAlign: "center",
     justifyContent: "center",
-    fontSize: 35,
+    fontSize: 30,
     fontWeight: "bold",
-    color: "#ff3366",
+    color: "#0f7699",
     marginTop: height / 40,
   },
   errorText: {
