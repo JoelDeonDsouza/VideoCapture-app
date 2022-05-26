@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, Dimensions, Pressable } from "react-native";
 import { Camera } from "expo-camera";
 import { Video } from "expo-av";
+//Added Image capture package!
 
 var { height, width } = Dimensions.get("window");
 
